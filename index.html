@@ -87,6 +87,17 @@
       color: #9ee7ff;
       text-decoration: none;
     }
+    .projects-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+@media (max-width: 768px) {
+  .projects-row {
+    grid-template-columns: 1fr;
+  }
+}
   </style>
 </head>
 
@@ -129,33 +140,34 @@
 
     <div class="card projects">
       <h2>Projects</h2>
-
-      <div class="project">
-        <h3>📊 ML Project — MMDT Student Dashboard</h3>
-        <p>This is my very first machine learning project. This project enhance my learning in to practical experience. </p>
-        <p>MMDT is the team dedicated to harnessing the power of data and technology to drive advancements within the education sector. I have learned machine learning experience through learing together project with MMDT. </p>
+      <div class="projects-row">
+        <div class="project">
+          <h3>📊 ML Project — MMDT Student Dashboard</h3>
+          <p>This is my very first machine learning project. This project enhance my learning in to practical experience. </p>
+          <p>MMDT is the team dedicated to harnessing the power of data and technology to drive advancements within the education sector. I have learned machine learning experience through learing together project with MMDT. </p>
+          <p> <a href="https://github.com/Myanmar-Data-Tech/MMDT_stu_dashboard" target="_blank">MMDT_Student_Dashboard</a></p>
+        </div>
+  
+        <div class="project">
+          <h3>🧠 Computer Vision Project — Project Title </h3>
+          <p>Short explanation of dataset, model, and result.</p>
+        </div>
+  
+        <div class="project">
+          <h3>👁 NLP Project — Project Title</h3>
+          <p>Image classification, detection, or segmentation project.</p>
+        </div>
+  
       </div>
-
-      <div class="project">
-        <h3>🧠 Computer Vision Project — Project Title </h3>
-        <p>Short explanation of dataset, model, and result.</p>
+  
+      <div class="card">
+        <h2>Contact</h2>
+        <p>Email: </p>
+        <p>GitHub:Yadanar025 <a href="https://github.com/Yadanar025" target="_blank">github.com/Yadanar025</a></p>
+        <p>LinkedIn: </p>
       </div>
-
-      <div class="project">
-        <h3>👁 NLP Project — Project Title</h3>
-        <p>Image classification, detection, or segmentation project.</p>
-      </div>
-
+  
     </div>
-
-    <div class="card">
-      <h2>Contact</h2>
-      <p>Email: </p>
-      <p>GitHub:Yadanar025 <a href="https://github.com/Yadanar025" target="_blank">github.com/Yadanar025</a></p>
-      <p>LinkedIn: </p>
-    </div>
-
-  </div>
 
   <footer>
     © 2026 Khin Yadanar Aung — ML & AI Portfolio
