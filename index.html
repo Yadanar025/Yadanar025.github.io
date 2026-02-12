@@ -1,11 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | ML & AI Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0b0f19, #111827);
+      color: #e5e7eb;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 90px 20px 60px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.85;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.07);
+      border-radius: 16px;
+      padding: 30px;
+      margin-bottom: 20px;
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      font-size: 28px;
+      color: #9ee7ff;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: rgba(255,255,255,0.15);
+      padding: 8px 14px;
+      border-radius: 20px;
+      margin: 5px;
+      font-size: 14px;
+    }
+
+    .projects .project {
+      margin-bottom: 15px;
+      padding: 18px;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.12);
+      transition: transform 0.2s ease;
+    }
+
+    .projects .project:hover {
+      transform: translateY(-3px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      opacity: 0.7;
+      font-size: 14px;
+    }
+
+    a {
+      color: #9ee7ff;
+      text-decoration: none;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Hello 👋</h1>
-  <p>This is my website hosted with GitHub Pages.</p>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Machine Learning & AI Portfolio</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        I am an aspiring Machine Learning and AI engineer, passionate about data,
+        models, and intelligent systems. I enjoy building real-world projects
+        and continuously improving my technical skills through both self and academic.
+      </p>
+    </div>
+
+    <div class="card skills">
+      <h2>Skills</h2>
+      <span>Python</span>
+      <span>NumPy</span>
+      <span>Pandas</span>
+      <span>Matplotlib</span>
+      <span>Scikit-learn</span>
+      <span>TensorFlow</span>
+      <span>PyTorch</span>
+      <span>Deep Learning</span>
+      <span>Computer Vision</span>
+      <span>NLP</span>
+    </div>
+
+    <div class="card projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>📊 ML Project — MMDT Student Dashboard</h3>
+        <p>This is my very first machine learning project. This project enhance my learning in to practical experience. </p>
+        <p>MMDT is the team dedicated to harnessing the power of data and technology to drive advancements within the education sector. I have learned machine learning experience through learing together project with MMDT. </p>
+      </div>
+
+      <div class="project">
+        <h3>🧠 Computer Vision Project — Project Title </h3>
+        <p>Short explanation of dataset, model, and result.</p>
+      </div>
+
+      <div class="project">
+        <h3>👁 NLP Project — Project Title</h3>
+        <p>Image classification, detection, or segmentation project.</p>
+      </div>
+
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: your@email.com</p>
+      <p>GitHub: <a href="https://github.com/YOUR-USERNAME" target="_blank">github.com/YOUR-USERNAME</a></p>
+      <p>LinkedIn: linkedin.com/in/YOURNAME</p>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Khin Yadanar Aung — ML & AI Portfolio
+  </footer>
+
 </body>
 </html>
